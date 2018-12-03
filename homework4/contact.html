@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Sheeba Powell - Contact Us Page</title>
+	
+	<!--below is a script which allows IE 8 to understand HTML 5 elements.-->
+	<!--[if lt IE 9]>
+    	<script>
+    		var elementsArray = ['abbr', 'article', 'aside', 'audio', 'bdi', 'canvas', 'data', 'datalist', 'details', 'figcaption', 'figure', 'footer', 'header', 'main', 'mark', 'meter', 'nav', 'output', 'progress', 'section', 'summary', 'template', 'time', 'video'];
+    		var len = elementsArray.length;
+    		for(i = 0; i < len; i++){
+    			document.createElement(elementsArray[i]);
+    		}
+    	</script>
+	<![endif]-->
+
+	<!--CSS style sheet goes here-->
+	
+  </head>
+  <body>
+	<div id=wrapper>
+    <header>
+      <h1>Sheeba Powell Contact Us</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="q-a.html">Q &amp; A</a></li>
+        <li><a href="stats.html">Statistics</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><span>Contact Us</span></li>
+        <li><a href="video.html">Video</a></li>
+      </ul>
+    </nav>   
+    <main>
+     <h2>Contact Us</h2>
+   <form method="post" action="#">
+    <label>First Name:<input type="text" name="first_name" size="10"></label>
+    <label>Last Name:<input type="text" name="last_name" size="10"></label>
+    <label>Email: <input type="text" name="email" size="15"></label>
+    <label for="states">Select your States:</label>
+     <select id="states" name="states">
+         <option value="alabama">Alabama</option>
+         <option value="florida">Florida</option>
+         <option value="michigan" selected="selected">Michigan</option>
+         <option value="indiana">Indiana</option>
+         <option value="tennessee">Tennessee</option>
+     </select>
+
+    <label>Male:<input type="radio" name="gender" value="Male"></label>
+    <label>Female:<input type="radio" name="gender" value="Female"></label>
+    <label for="comment"> Comment</label>
+    <textarea name="msg" id="comment" rows="10" cols="10"></textarea>
+    <input type="submit" value="Submit">
+
+   </form>
+   </main>
+    <footer>
+      <p>Sheeba Powell &copy; 2016</p>
+    </footer>
+  </div><!--end wrapper-->
+  </body>
+</html>

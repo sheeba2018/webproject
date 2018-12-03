@@ -1,0 +1,171 @@
+/*general*/
+
+
+body{font-size: 100%;  line-height:1.5; font-family:sans-serif;}
+* {margin: 0; padding: 0;}
+
+header, main, nav, footer, video {display: block;}
+
+/*wrapper*/
+#wrapper{width: 1024px; margin: 0 auto;}
+
+/*header*/
+
+header {
+	 height:50px;
+     background:url(../images/mountain-shed.jpg);
+     padding-top:200px;
+     padding-right:0;
+     bottom-left:20px;
+ }
+      
+  h1{
+    font-family: 'Julius Sans One', 'sans-serif';
+    color:#FFF;
+}
+
+
+/*navigation*/
+nav{border:1px solid #000;}
+	 nav ul li {
+		display:inline;
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-left: 40px;
+		margin-right: 40px;
+
+}
+nav ul li a, nav ul li span{
+	text-decoration:none;
+	color:#000;
+}
+nav ul li a:hover,nav ul li span {
+    text-decoration: underline;
+ 
+}
+
+/*main*/
+main {border: 1px solid #000; border-top: none; padding: 10px;}
+#images img{height: 90px; width: 120px; margin: 20px;}
+h2{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+main ul,main ol{
+	margin:30px;
+}
+/* footer*/
+ #centerf{
+ 	text-align: center;
+ }
+table{
+	border-collapse: collapse;
+}
+
+table caption{
+	font-weight: bold;
+}
+table, th,td{border: 1px solid #000;  border-collapse: collapse;}
+th,td{ padding: 5px;}
+th,span {padding-left:23px;}
+th {font-size:1.4em;}
+#chrome{
+ background:url(../images/chrome.png); background-repeat: no-repeat; background-position: top right;
+}
+#ie{
+ background:url(../images/ie.png); background-repeat: no-repeat; background-position: top right;
+}
+#firefox{
+ background:url(../images/firefox.png); background-repeat: no-repeat; background-position: top right;
+}
+#safari{
+ background:url(../images/safari.png); background-repeat: no-repeat; background-position: top right;
+}
+#opera{
+ background:url(../images/opera.png); background-repeat: no-repeat; background-position: top right;
+}
+
+th,tfoot{background-color: #ccc;}
+
+.even
+	{background-color: #eee;}
+table{
+	margin: 0 auto;
+}
+#tcenter
+{
+	text-align: center;
+}
+
+dt::first-letter {
+    
+    font-weight:bold;
+	color:blue;
+	/*font-size:100%;*/
+    
+}
+/*For this selector to work in IE 5.5-8, you must specify the old, single-colon CSS2 syntax (:first-letter instead of ::first-letter)*/
+dd::first-letter {
+    
+    font-weight:bold;
+	color:green;
+    
+}
+
+dt,dd{
+	
+	margin-left:10px;
+}
+
+dt{
+	
+	margin-top: 10px;
+}
+
+label{
+	display: block;
+	margin:0 0 10px 0;
+}
+textarea{
+	width:150px;
+	height:100px;
+	vertical-align: top;
+
+}
+#research
+{
+    background-color: #ddd;
+	 padding: 25px;
+}
+
+
+
+#research li{
+    list-style-position: inside;
+}
+#display-image
+{
+	Border: 5px solid #000;
+    Height: 450px;
+    Width: 600px;
+    Text-align:center;
+    Margin: 0 auto;
+}
+#display-image p
+{
+	line-height: 450px;
+
+}
+#images img:hover{
+	outline:1px solid green;
+}
+video{
+	text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+

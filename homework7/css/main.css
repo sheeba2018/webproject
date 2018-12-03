@@ -1,0 +1,246 @@
+
+/*GENERAL*/
+* {margin: 0; padding: 0;}
+  header,main{display: block;}
+ body{font-size: 100%;  line-height:1.5; font-family:Arial;}
+
+
+
+/* WRAPPER*/
+#wrapper{
+     width:1024px; margin:0 auto;
+   
+}
+
+/*HEADER*/
+header{
+	background:#23b6eb;
+	height:170px;
+	position:relative;
+     }
+
+	
+
+.bar{
+	background: #5d5a5a;
+	height: 30px;
+}
+header h1
+{
+	color: #fff;
+	position: absolute;
+	left: 200px;
+	top:70px;
+	font-size: 2.75em;
+	font-weight: normal;
+	font-family: Arial;
+}
+/*NAVIGATION*/
+nav{
+background:#BBB;
+height: 40px;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	float: left;
+}
+nav ul li a{
+	display: block;
+	width: 256px;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	font-size: 1.2em;
+	line-height: 40px;
+
+}
+/*CONTENT*/
+#content{
+	border:1px solid#000; position:relative;background: #d4d6d3;
+   
+}
+
+/* RIGHT*/
+
+	#right{
+		position:absolute;
+		height: 364px;
+	    width: 282px;
+		right:0;
+		background:red;
+		background:#bebdbd;
+	    margin: 30px 18px 0 0;
+	    padding: 0 0 0 0;
+
+		}
+	#right h2{
+	font-family: Arial;
+	font-size: 1.4em;
+	color: #0e5d7a;
+	font-weight: normal;
+	margin: 15px 4px 0 15px;
+}
+
+
+/*SOCIAL*/
+ul#social1{
+    list-style: none;
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+    position: relative;
+}
+
+ul#social1 a {
+    color: black
+}
+
+
+#twitterLink2, #twitterImg, #facebookLink2, #facebookImg, #bloggerLink2,#bloggerImg {
+    position: absolute;
+}
+
+#twitterLink2{
+	left: 40px;
+    top: 9px;
+
+}
+
+#twitterImg {
+	top:9px;
+	left: 14px
+}
+
+#facebookLink2{
+    left: 39px;
+    top: 42px
+}
+#bloggerLink2{
+    left: 39px;
+    top: 78px;
+}
+
+#facebookImg {
+ 
+ 	top:43px;
+	left: 15px
+ 
+}
+#bloggerImg{
+	
+	top:77px;
+	left:16px;
+}
+
+/*CONTACT US*/
+
+#right #cont {
+	margin: 112px 0 0 0;
+	padding:0 0 0 14px;
+}
+
+ul#contact1{
+    list-style: none;
+}
+#contact1 ul  a
+    {text-decoration: underline; color: #000;}
+
+
+ul#contact1 a {
+    color: black
+}
+
+ul#contact1 {
+	margin:  0 0 0 19px;
+}
+
+
+ul#contact1 li{
+    margin: 6px 0 0 0;
+    padding:0 0 0 0;
+}
+
+/*MAIN*/
+main{width: 669px;margin: 0 0px 0 0px;padding:28px 25px 30px 28px;}
+
+main h4{font-size: 2em}
+ main h4 span{
+ 	line-height: 1.5;
+	font-family: Arial;
+	font-weight:normal;
+	
+	display:block;
+}
+
+main #para1{
+	line-height:1.5;
+	font-size:1.17em;
+	font-weight:bold;
+	display: block;
+	padding: 10px 0 0px 0;
+}
+
+main p{
+	padding:11px 0 0 10px;
+	display: block;
+    
+}
+
+ main #para2{
+	font-family: Arial;
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 8px 0 0 0px;
+}
+
+ main #para3{
+	font-family: Arial;
+	font-size:1.0em;
+	font-weight: bold;
+	padding: 10px 0 0 10px;
+
+	
+}
+main #date1{
+	padding: 0px 0 0 11px;
+}
+main #date2{
+	padding: 0px 0 0 11px;
+}
+
+
+main #para4{
+	font-family: Arial;
+	font-size: 1 em;
+	font-weight: bold;
+	padding: 11px 0 0 11px;
+}
+
+main #para5{
+	display: block;
+	padding: 0px 0 0 21px;
+}
+main #para6{
+	display: block;
+	padding: 0px 0 0 20px;
+}
+
+#footer{
+	background: #595858;
+	height: 25px;
+	text-align: center;
+	padding:12px;
+
+	}
+#footer p{
+	color:white;
+}
+
+
+
+
+
+
+

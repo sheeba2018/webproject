@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Your Name - Gallery Page</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+  
+	<!--below is a script which allows IE 8 to understand HTML 5 elements.-->
+	<!--[if lt IE 9]>
+    	<script>
+    		var elementsArray = ['abbr', 'article', 'aside', 'audio', 'bdi', 'canvas', 'data', 'datalist', 'details', 'figcaption', 'figure', 'footer', 'header', 'main', 'mark', 'meter', 'nav', 'output', 'progress', 'section', 'summary', 'template', 'time', 'video'];
+    		var len = elementsArray.length;
+    		for(i = 0; i < len; i++){
+    			document.createElement(elementsArray[i]);
+    		}
+    	</script>
+	<![endif]-->
+
+	<!--CSS style sheet goes here-->
+	
+  </head>
+  <body>
+	<div id="wrapper">
+    <header>
+      <h1>Your Name Gallery</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="q-a.html">Q &amp; A</a></li>
+        <li><a href="stats.html">Statistics</a></li>
+        <li><span>Gallery</span></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="video.html">Video</a></li>
+      </ul> 
+    </nav>   
+    <main>
+     <h2>Gallery</h2>
+     <p>Click on a thumbnail to see the full image in the box below.</p>
+     <div id="images">
+       <img src="images/canyon1.jpg" alt="enterance to grand canyon" height="450" width="600">
+       <img src="images/canyon2.jpg" alt="overlooking grand canyon" height="450" width="600">
+       <img src="images/canyon3.jpg" alt="overlooking grand canyon" height="450" width="600">
+       <img src="images/canyon4.jpg" alt="mountain goats" height="450" width="600">
+       <img src="images/canyon5.jpg" alt="overlooking grand canyon" height="450" width="600">
+       <img src="images/canyon6.jpg" alt="grand canyon structure" height="450" width="600">
+     </div><!-- end images -->
+     <div id="display-image">
+       <p>Selected image will appear here</p>
+     </div><!-- end display-image -->
+    </main>
+    <footer>
+      <p>your name &copy; 2016</p>
+    </footer>
+  </div><!--end wrapper-->
+  </body>
+</html>
